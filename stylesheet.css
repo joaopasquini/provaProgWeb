@@ -1,0 +1,114 @@
+header {
+
+  background-color: rgb(5, 90, 13);
+  height: 65px;
+  width: auto;
+  border-color: black;
+  border-width: 1px;
+
+}
+
+body {
+    background-image: url(imagens/background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.logos {
+    margin: 10px 0px 0px 10px;
+    width: 43px;
+    height: 43px;
+    float: left;
+}
+
+#agroservice {
+  width: 300px;
+}
+
+
+#newsletter:link, #newsletter:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 0px 0px;
+    float: right;
+}
+
+#newsletter:hover, #newsletter:active {
+    background-color: red;
+  }
+
+
+#quadrado{
+    position: relative;
+    margin-left: 450px;
+    max-width: 915px;
+    background-color: white;
+    background-position: center;
+    opacity: 0.5;
+    border-style: outset;
+    border-width: 0.5px;
+    border-color: black;
+    text-align: center;
+}
+
+#textoTituloCaixa {
+    font-size: 48;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.textoDescricaoCaixa{
+    font-size: 42;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#aboutUs{
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 0px 0px;
+    border-style: outset;
+    border-width: 0.5px;
+    border-color: black;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #424542;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    border-width: 1px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-info{
+    margin: 0 0 0 15;
+    line-height: 0;
+}
+
+.footer-contatos{
+    margin: 0 0 0 15;
+    line-height: 0;
+}
+
+
+
